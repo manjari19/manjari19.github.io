@@ -58,7 +58,9 @@ export const Banner = () => {
                             <span className="wrap"><span>{text}</span></span>
                         </h1>
                         <p>
-                            ADD ABOUT ME LATER! FRAME IT PROPERLY
+                        I am a Computer Science student at Simon Fraser University with a strong interest in software development and community service. With experience in tutoring, volunteer work, and journalism, I have developed skills in problem-solving, organization, and teamwork. I am fluent in English, Malayalam, and Tamil, with professional proficiency in Japanese and basic French.
+
+I am passionate about applying my technical knowledge to real-world challenges while continuously growing as a developer. I'm eager to contribute to projects that enhance user experience and solve meaningful problems.
                         </p>
                         <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
                     </Col>
