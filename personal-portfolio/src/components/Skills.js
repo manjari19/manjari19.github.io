@@ -1,6 +1,10 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter30 from "../assets/img/meter30.svg";
+import meter50 from "../assets/img/meter50.svg";
+import meter70 from "../assets/img/meter70.svg";
+import meter80 from "../assets/img/meter80.svg";
+import meter90 from "../assets/img/meter90.svg";
+import meter100 from "../assets/img/meter100.svg";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -38,27 +42,27 @@ export const Skills = () => {
                         <p>These skills reflect my technical proficiency, problem-solving abilities, and experience working in various environments, from academic projects to community service. I am continuously developing these skills to tackle real-world challenges and contribute to innovative solutions.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter80} alt="Image" />
                                 <h5>Programming Languages</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter80} alt="Image" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter70} alt="Image" />
                                 <h5>Problem-Solving</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter100} alt="Image" />
                                 <h5>Tutoring</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter90} alt="Image" />
                                 <h5>Organizational Skills</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter90} alt="Image" />
                                 <h5>Community Engagement</h5>
                             </div>
                         </Carousel>
