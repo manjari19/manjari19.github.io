@@ -1,6 +1,14 @@
-import { Container, Row } from "react-bootstrap"
+import { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap"
+import { ArrowRightCircle } from "react-bootstrap-icons"
+import headerImg from "..assets/img/headerImg.svg"
 
 export const Banner = () => {
+    const[loopNum, setLoopNum]= useState(0);
+    const [isDeleting, setIsDeleting]= useState(false);
+    const toRotate =["Computer Science Student", "Kumon Instructor", "Aspiring Web Devloper"];
+    const [text, setText]= useState('')
+    const period= 2000;
     return (
         <section className="banner" id="home">
             <Container>
@@ -11,7 +19,10 @@ export const Banner = () => {
                         <p>
                             ADD ABOUT ME LATER! FRAME IT PROPERLY
                         </p>
-                        <button onClick={()=>console.log('connect')}>Let's connect</button>
+                        <button onClick={()=>console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <img src={} alt="Header image" />
                     </Col>
                 </Row>
             </Container>
