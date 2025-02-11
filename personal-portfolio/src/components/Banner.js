@@ -62,7 +62,6 @@ export const Banner = () => {
 
 I am passionate about applying my technical knowledge to real-world challenges while continuously growing as a developer. I'm eager to contribute to projects that enhance user experience and solve meaningful problems.
                         </p>
-                        <button onClick={() => console.log('connect')}>Let's connect<ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header image" />
