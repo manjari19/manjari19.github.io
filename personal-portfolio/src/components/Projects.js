@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg2 from "../assets/img/project-img2.jpeg";
+import projImg3 from "../assets/img/project-img3.jpeg";
+import projImg4 from "../assets/img/project-img4.jpeg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,32 +12,32 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Flight Booking and Management",
+      description: "A Python and MySQL-based flight booking system with a Tkinter GUI, enabling user authentication, flight availability checks, and seamless ticket booking.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Automated Job Checker with Alerts",
+      description: "A python-based web scraper uses Selenium and BeautifulSoup to automate job checking on a website, logging in, extracting table data, and sending SMS alerts via Twilio when new records are found",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Weather app",
+      description: "A sleek and user-friendly web app that fetches real-time weather data via the OpenWeather API, allowing users to check temperature, humidity, and wind speed for any city.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
+      title: "Memory Game",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
+      title: "Flags Game",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "To-Do List",
       description: "Design & Development",
       imgUrl: projImg3,
     },
@@ -55,13 +56,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Coding Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Poetry Corner</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Piano Covers</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
