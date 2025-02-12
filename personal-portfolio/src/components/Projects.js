@@ -8,6 +8,11 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+//Video importing
+import video1 from "../assets/videos/arabesque.MOV";
+import video3 from "../assets/videos/family-line.mov";
+import video2 from "../assets/videos/young-and-beautiful.mov";
+
 export const Projects = () => {
 
   const codingProjects = [
@@ -126,11 +131,24 @@ I finally feel like I've entered my personal hell.`
     }
   ];
    
-  const pianoCovers = [
-    { title: "Clocks by Coldplay", description: "A piano cover of the iconic Coldplay song" },
-    { title: "River Flows in You by Yiruma", description: "A peaceful piano cover of Yiruma's popular composition" },
-    { title: "Canon in D by Pachelbel", description: "A timeless classical piece reimagined on piano" },
+ const pianoCovers = [
+    { 
+      title: "Arabesque No.1", 
+      description: "A delicate and flowing piano composition by Debussy.", 
+      videoSrc: video1 
+    },
+    { 
+      title: "Young and Beautiful", 
+      description: "A hauntingly melancholic piano cover of Lana Del Rey’s song", 
+      videoSrc: video2 
+    },
+    { 
+      title: "Family Line", 
+      description: "A deeply emotional piano interpretation of Conan Gray’s song", 
+      videoSrc: video3 
+    }
   ];
+  
 
   return (
     <section className="project" id="projects">
@@ -188,18 +206,24 @@ I finally feel like I've entered my personal hell.`
                       </Tab.Pane>
 
                       {/* Piano Covers Tab */}
+                      {/* Piano Covers Tab */}
                       <Tab.Pane eventKey="third">
                         <Row>
                           {pianoCovers.map((cover, index) => (
                             <Col key={index} md={4}>
-                              <div className="project-card">
+                              <div className="video-card">
                                 <h5>{cover.title}</h5>
-                                <p>{cover.description}</p>
+                                <p className="video-description">{cover.description}</p>
+                                <video controls width="100%">
+                                  <source src={cover.videoSrc} type="video/mp4" />
+                                  Your browser does not support the video tag.
+                                </video>
                               </div>
                             </Col>
                           ))}
                         </Row>
                       </Tab.Pane>
+
                     </Tab.Content>
                   </Tab.Container>
                 </div>}

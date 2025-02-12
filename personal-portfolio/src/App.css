@@ -474,19 +474,60 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /* Piano Covers Section */
-.piano-card {
+.video-card {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
   margin: 20px auto;
   text-align: center;
-  max-width: 500px;
+  max-width: 400px; /* Ensures consistent width for each video card */
   transition: transform 0.3s ease-in-out;
 }
 
-.piano-card:hover {
+.video-card:hover {
   transform: scale(1.03);
 }
+
+/* Style for the video titles */
+.video-card h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Style for the video descriptions */
+.video-description {
+  font-size: 16px;
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 12px;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 90%;
+}
+
+/* Ensures videos are properly sized and responsive */
+.video-card video {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Adjust spacing between video elements */
+@media (min-width: 768px) {
+  .video-card {
+    max-width: 380px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-card {
+    max-width: 100%;
+  }
+}
+
 
 /* Project Cards */
 .proj-imgbx {
