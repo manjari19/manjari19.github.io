@@ -356,17 +356,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /*Projects Section */
-/************ Projects Css ************/
+
+/* Projects Section */
 .project {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
+
 .project p {
   color: #B8B8B8;
   font-size: 18px;
@@ -376,16 +379,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
-  background-color: rgb(255 255 255 / 10%);
+  background-color: rgba(255, 255, 255, 0.1);
   overflow: hidden;
 }
+
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
+
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
@@ -400,6 +406,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
+
 .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
@@ -411,30 +418,84 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
+
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
+
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+
+/* Poetry Section */
+.poetry-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  text-align: center;
+  max-width: 800px; /* Keeps it wide enough for text */
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+.poetry-card:hover {
+  transform: scale(1.03);
 }
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+
+/* Center-align the title */
+.poetry-card h5 {
+  font-size: 22px; /* Slightly smaller for better fit */
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #fff;
+  text-align: center;
 }
+
+/* Smaller font size to prevent line breaks */
+.poetry-text {
+  font-size: 12px !important; /* Reduced font size */
+  line-height: 1.6;
+  white-space: normal; /* Allows text to wrap naturally */
+  word-wrap: normal;
+  overflow-wrap: normal;
+  color: #ccc;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.2px;
+  word-spacing: 1.2px;
+  max-width: 90%; /* Keeps text well-contained */
+  margin: auto;
+  display: inline-block; /* Prevents forced line breaks */
+}
+
+
+
+/* Piano Covers Section */
+.piano-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  max-width: 500px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.piano-card:hover {
+  transform: scale(1.03);
+}
+
+/* Project Cards */
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
 }
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -444,9 +505,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 0;
   transition: 0.4s ease-in-out;
 }
+
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -457,29 +520,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
+
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
 }
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
-}
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
 }
 
 /* Contacts Section */
