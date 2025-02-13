@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png"; // Example image for codi
 import projImg2 from "../assets/img/project-img2.jpeg"; // Example image for coding projects
 import projImg3 from "../assets/img/project-img3.jpeg"; // Example image for coding projects
 import projImg4 from "../assets/img/project-img4.jpeg"; // Example image for coding projects
+import projImg5 from "../assets/img/project-img5.jpeg"; // Example image for coding projects
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -39,7 +40,7 @@ export const Projects = () => {
     {
       title: "Flags Game",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
       title: "To-Do List",
@@ -204,8 +205,6 @@ I finally feel like I've entered my personal hell.`
                           ))}
                         </Row>
                       </Tab.Pane>
-
-                      {/* Piano Covers Tab */}
                       {/* Piano Covers Tab */}
                       <Tab.Pane eventKey="third">
                         <Row>
@@ -231,7 +230,6 @@ I finally feel like I've entered my personal hell.`
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="Background" />
     </section>
   );
 };

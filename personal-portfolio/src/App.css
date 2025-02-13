@@ -34,7 +34,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background: linear-gradient(135deg, #352F44, #5C5470, #B9B4C7, #FAF0E6);
+  background: linear-gradient(135deg, #1A1A1D,#A64D79);
   color: #FAF0E6 !important;
   font-family: 'Centra', sans-serif;
   background-attachment: fixed;
@@ -292,8 +292,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  width: 50%;
-  max-width: 200px; 
+  width: 100%;
+  max-width: 300px; 
 }
 @keyframes updown {
   0% {
