@@ -30,13 +30,14 @@ html{
   scroll-padding-top: 75px;
 }
 
-body{
+body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #fff !important;
+  background: linear-gradient(135deg, #352F44, #5C5470, #B9B4C7, #FAF0E6);
+  color: #FAF0E6 !important;
   font-family: 'Centra', sans-serif;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -237,7 +238,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.jpg');
   background-position: center; /* Center the background image */
   background-size: cover; /* Ensure the background covers the entire section */
   background-repeat: no-repeat;
