@@ -37,19 +37,19 @@ export const Projects = () => {
     },
     {
       title: "Memory Game",
-      description: "Design & Development",
+      description: "A fun and interactive memory matching game built with JavaScript and React. Players flip cards to find matching pairs while testing their memory and concentration. Features include a timer, score tracking, and multiple difficulty levels.",
       imgUrl: projImg4,
       githubUrl: "https://github.com/manjari19/memory-game"
     },
     {
       title: "Flags Game",
-      description: "Design & Development",
+      description: "An educational web-based game that challenges players to match country flags with their corresponding names. Built using React and integrated with an API for fetching country data, this game is a great way to improve geographic knowledge.",
       imgUrl: projImg5,
       githubUrl: "https://github.com/manjari19/flags-game"
     },
     {
       title: "To-Do List",
-      description: "Design & Development",
+      description: "A simple and efficient to-do list application that helps users manage tasks and stay organized. Built using React with local storage support, users can add, delete, and mark tasks as completed, ensuring productivity on the go.",
       imgUrl: projImg3,
       githubUrl: "https://github.com/manjari19/to-do-list"
     },
