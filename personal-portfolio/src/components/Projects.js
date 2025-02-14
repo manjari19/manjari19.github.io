@@ -1,10 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png"; // Example image for coding projects
-import projImg2 from "../assets/img/project-img2.jpeg"; // Example image for coding projects
-import projImg3 from "../assets/img/project-img3.jpeg"; // Example image for coding projects
-import projImg4 from "../assets/img/project-img4.jpg"; // Example image for coding projects
-import projImg5 from "../assets/img/project-img5.jpeg"; // Example image for coding projects
+import projImg1 from "../assets/img/project-img1.png"; // flight
+import projImg2 from "../assets/img/project-img2.jpg"; // scraping
+import projImg3 from "../assets/img/project-img3.jpeg"; // weather
+import projImg4 from "../assets/img/project-img4.jpg"; // memory
+import projImg5 from "../assets/img/project-img5.jpeg"; // flags
+import projImg6 from "../assets/img/project-img6.jpg"; // to-do
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -50,7 +52,7 @@ export const Projects = () => {
     {
       title: "To-Do List",
       description: "A simple and efficient to-do list application that helps users manage tasks and stay organized. Built using JS with local storage support, users can add, delete, and mark tasks as completed, ensuring productivity on the go.",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
       githubUrl: "https://github.com/manjari19/to-do-list"
     },
   ];
