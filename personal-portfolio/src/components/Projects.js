@@ -21,33 +21,40 @@ export const Projects = () => {
       title: "Flight Booking and Management",
       description: "A Python and MySQL-based flight booking system with a Tkinter GUI, enabling user authentication, flight availability checks, and seamless ticket booking.",
       imgUrl: projImg1,
+      githubUrl: "https://github.com/manjari19/flight-tracker"
     },
     {
       title: "Automated Job Checker with Alerts",
       description: "A Python-based web scraper using Selenium and BeautifulSoup to automate job checking, logging in, extracting table data, and sending SMS alerts via Twilio.",
       imgUrl: projImg2,
+      githubUrl: "https://github.com/manjari19/web-scraping"
     },
     {
       title: "Weather App",
       description: "A sleek and user-friendly web app that fetches real-time weather data via the OpenWeather API, allowing users to check temperature, humidity, and wind speed for any city.",
       imgUrl: projImg3,
+      githubUrl: "https://github.com/manjari19/weather-app"
     },
     {
       title: "Memory Game",
       description: "Design & Development",
       imgUrl: projImg4,
+      githubUrl: "https://github.com/manjari19/memory-game"
     },
     {
       title: "Flags Game",
       description: "Design & Development",
       imgUrl: projImg5,
+      githubUrl: "https://github.com/manjari19/flags-game"
     },
     {
       title: "To-Do List",
       description: "Design & Development",
       imgUrl: projImg3,
+      githubUrl: "https://github.com/manjari19/to-do-list"
     },
   ];
+  
 
   // Poetry Section
   const poetry = [
