@@ -428,6 +428,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 
+.project-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+  display: block; /* Ensures entire card is clickable */
+}
+
+.project-link:hover {
+  color: inherit; /* Prevents color change on hover */
+}
+
 /* Poetry Section */
 .poetry-card {
   background-color: rgba(255, 255, 255, 0.1);
