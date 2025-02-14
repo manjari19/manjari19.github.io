@@ -5,7 +5,6 @@ import projImg2 from "../assets/img/project-img2.jpeg"; // Example image for cod
 import projImg3 from "../assets/img/project-img3.jpeg"; // Example image for coding projects
 import projImg4 from "../assets/img/project-img4.jpeg"; // Example image for coding projects
 import projImg5 from "../assets/img/project-img5.jpeg"; // Example image for coding projects
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -16,6 +15,7 @@ import video2 from "../assets/videos/young-and-beautiful.mov";
 
 export const Projects = () => {
 
+  //coding projects
   const codingProjects = [
     {
       title: "Flight Booking and Management",
@@ -49,7 +49,7 @@ export const Projects = () => {
     },
   ];
 
-  // Poetry Section (Formatted for Display)
+  // Poetry Section
   const poetry = [
     { 
       title: "Chamapgne Problems (rewrite)", 
@@ -131,10 +131,11 @@ Another young lady with blood-soaked wrists entered my cell
 I finally feel like I've entered my personal hell.`
     }
   ];
-   
+
+  //piano covers
  const pianoCovers = [
     { 
-      title: "Arabesque No.1", 
+      title: "Arabesque No.1",
       description: "A delicate and flowing piano composition by Debussy.", 
       videoSrc: video1 
     },
@@ -169,10 +170,10 @@ I finally feel like I've entered my personal hell.`
                         <Nav.Link eventKey="first">Coding Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Poetry Corner</Nav.Link>
+                        <Nav.Link eventKey="second">Piano Covers</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Piano Covers</Nav.Link>
+                        <Nav.Link eventKey="third">Poetry Corner</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -186,7 +187,7 @@ I finally feel like I've entered my personal hell.`
                       </Tab.Pane>
                       
                       {/* Poetry Corner Tab (With Line Breaks) */}
-                      <Tab.Pane eventKey="second">
+                      <Tab.Pane eventKey="third">
                         <Row>
                           {poetry.map((poem, index) => (
                             <Col key={index} md={4}>
@@ -206,7 +207,7 @@ I finally feel like I've entered my personal hell.`
                         </Row>
                       </Tab.Pane>
                       {/* Piano Covers Tab */}
-                      <Tab.Pane eventKey="third">
+                      <Tab.Pane eventKey="second">
                         <Row>
                           {pianoCovers.map((cover, index) => (
                             <Col key={index} md={4}>
