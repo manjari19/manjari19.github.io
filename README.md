@@ -38,19 +38,31 @@ For this task, please include your answers for the questions described in [Lab 4
 
 ### Q1
 
-[Insert answer here]
+Pull Requests (PRs) are a collaboration feature in GitHub that allow developers to propose changes to a repository. A PR lets contributors suggest code modifications from one branch to another before merging. It serves as a code review tool, enabling team members to review, discuss, and approve changes before they are merged into the main project. PRs also provide a record of changes and discussions, helping maintain code quality and preventing conflicts.
+
 
 ### Q2
 
-[Insert answer here]
+Green (+34) → Indicates added lines of code in the pull request.
+Red (-42) → Indicates removed lines of code in the pull request.
+The image shows that 34 new lines were added, while 42 lines were deleted.
+
 
 ### Q3
 
-[Insert answer here]
+git merge test:
+Merges the changes from the test branch into the current branch (develop).
+Git will combine the changes from test into develop.
+If no conflicts exist, Git automatically merges the changes.
+If conflicts exist, Git pauses the merge and asks the user to resolve them manually.
+
 
 ### Q4
 
-[Insert answer here]
+The message appears because Git detected conflicting changes in the README.md file between the develop and test branches. This happens when:
+
+The same line(s) of code were modified in both branches.
+Git doesn’t know which version to keep, so it asks the user to manually resolve the conflict.
 
 ### Q5
 
