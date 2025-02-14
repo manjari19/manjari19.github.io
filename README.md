@@ -42,17 +42,38 @@ For this task, please include your answers for the questions described in [Lab 4
 
 ### Q2
 
+This website is a personal portfolio that showcases my skills, projects, and background. It includes the following sections:
+
+Home: A landing page introducing myself.
+Skills: Highlights my technical expertise.
+Projects: Displays my coding projects with GitHub links.
+Piano Covers & Poetry: Showcases my creative work.
+Contact: A form allowing visitors to reach out to me.
+Dark Mode UI: Styled with a modern aesthetic.
 
 ### Q3
+A favicon is a small icon displayed on the browser tab next to the website title.
 
+It is important for SEO as it:
+- Improves branding by making the website easily recognizable.
+- Enhances user experience, making tabs easy to identify.
+- Some search engines, like Google, display favicons in search results, increasing visibility and credibility.
 
 ### Q4
+GitHub Pages is a free hosting service provided by GitHub that allows developers to deploy static websites directly from a GitHub repository.
+
+It differs from a regular webpage as:
+No server setup required – It serves static HTML, CSS, and JavaScript files directly.
+Version control – Since it’s linked to a GitHub repository, changes are easily tracked.
+Free hosting – Unlike traditional hosting, GitHub Pages is completely free.
 
 ### Q5
 
-[Insert answer here]
+GitHub Actions is a CI/CD (Continuous Integration & Continuous Deployment) tool that automates workflows. It allows developers to run scripts, tests, and deploy applications whenever code is pushed to GitHub.
+
 
 ### Q6
+I chose React.js due to its component-based architecture and easy state management.
 
 [Insert answer here]
 
