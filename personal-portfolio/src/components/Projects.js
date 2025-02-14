@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png"; // Example image for coding projects
 import projImg2 from "../assets/img/project-img2.jpeg"; // Example image for coding projects
 import projImg3 from "../assets/img/project-img3.jpeg"; // Example image for coding projects
-import projImg4 from "../assets/img/project-img4.jpeg"; // Example image for coding projects
+import projImg4 from "../assets/img/project-img4.jpg"; // Example image for coding projects
 import projImg5 from "../assets/img/project-img5.jpeg"; // Example image for coding projects
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -37,19 +37,19 @@ export const Projects = () => {
     },
     {
       title: "Memory Game",
-      description: "A fun and interactive memory matching game built with JavaScript and React. Players flip cards to find matching pairs while testing their memory and concentration. Features include a timer, score tracking, and multiple difficulty levels.",
+      description: "A fun and interactive memory matching game built with JavaScript. Players flip cards to find matching pairs while testing their memory and concentration. Features include a timer and score tracking.",
       imgUrl: projImg4,
       githubUrl: "https://github.com/manjari19/memory-game"
     },
     {
       title: "Flags Game",
-      description: "An educational web-based game that challenges players to match country flags with their corresponding names. Built using React and integrated with an API for fetching country data, this game is a great way to improve geographic knowledge.",
+      description: "An educational web-based game that challenges players to match country flags with their corresponding names. Built using JS and integrated with an API for fetching country data, this game is a great way to improve geographic knowledge.",
       imgUrl: projImg5,
       githubUrl: "https://github.com/manjari19/flags-game"
     },
     {
       title: "To-Do List",
-      description: "A simple and efficient to-do list application that helps users manage tasks and stay organized. Built using React with local storage support, users can add, delete, and mark tasks as completed, ensuring productivity on the go.",
+      description: "A simple and efficient to-do list application that helps users manage tasks and stay organized. Built using JS with local storage support, users can add, delete, and mark tasks as completed, ensuring productivity on the go.",
       imgUrl: projImg3,
       githubUrl: "https://github.com/manjari19/to-do-list"
     },
